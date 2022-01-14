@@ -1,0 +1,44 @@
+header{
+    font-size:x-large;
+    font-weight: 1000;
+}
+
+nav{
+    background: linear-gradient(275deg, rgba(206, 173, 27, 0.986) 14%, rgba(199, 141, 15, 0.897) 47%);
+    color: rgba(143, 4, 4, 0.949);
+    width:120px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: solid;
+}
+
+#navbar div {
+    color: rgba(103, 4, 4, 0.949);
+    border-top: 3px solid;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 10px;
+    color: rgba(143, 4, 4, 0.949);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body{
+    background: rgba(206, 173, 27, 0.986);
+    color: rgba(143, 4, 4, 0.949);
+    position: absolute;
+    left: 120px;
+}
+
+@media (max-width:560px){
+    nav{
+        width: fit-content;
+        max-width: 40%;
+    }
+}
